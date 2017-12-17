@@ -1,4 +1,32 @@
-@media all and (max-width : 1200px) {}
-@media all and (max-width : 992px){}
-@media all and (max-width : 768px){}
-@media all and (max-width : 576px) {}
+@media all and (max-width: 1200px) {}
+
+@media all and (max-width: 992px) {
+    .toggle {
+        display: block;
+        background-color: #fff;
+        padding: 0 20px;
+        color: #1ac056;
+        font-size: 20px;
+        line-height: 60px;
+        text-decoration: none;
+        border: none; 
+        text-align: right; 
+    }
+    ul.menu-list li {
+        display:none;
+    }
+}
+
+@media all and (max-width: 768px) {
+    padding: 0 40px 50px;
+}
+
+@media all and (max-width: 576px) {
+    padding: 0 10px 30px;
+}
+   #drop {
+        display:none;
+    }
+  .toggle {
+        display: none;
+    }

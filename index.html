@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
-
+<link rel="stylesheet" href="css/responsive.css">
     <!--Font Google Lato and Roboto styles -->
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
     <!--Font Awesome Styles -->
@@ -15,6 +15,8 @@
 <body>
     <!-- Main Navigation Start -->
 <nav id="main-nav">
+  <label for="drop" class="toggle">Menu</label>
+   <input type="checkbox" id="drop">
     <ul class="menu-list">
         <li><a href="#about">O mnie</a></li>
         <li><a href="#skills">Umiejętności</a></li>
@@ -87,10 +89,12 @@
         </div>
     </div>
     <div class="contact-form">
+       <form action="https://formspree.io/marta@zdalnebabki.pl/" method="post" >
         <input type="text" placeholder="Imię i nazwisko">
         <input type="email" placeholder="Adres email">
         <textarea name="message" placeholder="Twoja wiadomość"></textarea>
         <input type="submit" value="wyślij" id="button-contact">
+        </form>
     </div>
     </section>
     <footer id="footer">
